@@ -17,4 +17,51 @@ public class Cat {
         this.hungerLevel=3;
         this.moodLevel=3;
     }
+    public String getName()
+    {
+        return name;
+    }
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+    public String getColour()
+    {
+        return colour;
+    }
+    public void setColour(String colour)
+    {
+        this.colour = colour;
+    }
+    public Integer getAge()
+    {
+        return age;
+    }
+    public void setAge(Integer age)
+    {
+        this.age=age;
+    }
+    public void play()
+    {
+        this.energyLevel++;
+        this.moodLevel--;
+        this.miau();
+    }
+    public void feed()
+    {
+        this.moodLevel++;
+        this.hungerLevel--;
+        this.miau();
+    }
+    public void sleep()
+    {
+        this.energyLevel++;
+        this.hungerLevel++;
+    }
+    private void miau()
+    {
+        System.out.println("Miau - Energy " + energyLevel
+                + " Hunger " + hungerLevel + " Mood " + moodLevel);
+
+    }
 }
