@@ -13,5 +13,6 @@ public class pb1{
 
         System.out.println("Lista cu duplicate: " + listaCuDuplicate);
         System.out.println("Lista fără duplicate: " + listaFaraDuplicate);
+
     }
 }
