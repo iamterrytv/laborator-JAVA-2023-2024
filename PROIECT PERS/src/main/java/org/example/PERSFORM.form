@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.PERSFORM">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="16" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="557" height="500"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="49d22" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nume"/>
+        </properties>
+      </component>
+      <component id="eab8b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Prenume"/>
+        </properties>
+      </component>
+      <component id="16157" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Varsta"/>
+        </properties>
+      </component>
+      <component id="8585f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Gen"/>
+        </properties>
+      </component>
+      <component id="9708a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nationalitate"/>
+        </properties>
+      </component>
+      <component id="9bc73" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Adresa"/>
+        </properties>
+      </component>
+      <component id="916a2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Strada"/>
+        </properties>
+      </component>
+      <component id="9e681" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nr"/>
+        </properties>
+      </component>
+      <component id="3e880" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Judet"/>
+        </properties>
+      </component>
+      <component id="1924a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Oras"/>
+        </properties>
+      </component>
+      <component id="5e1c0" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="37902" class="javax.swing.JTextField" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="7da3f" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+            <item value="5"/>
+            <item value="6"/>
+            <item value="7"/>
+            <item value="8"/>
+            <item value="9"/>
+            <item value="10"/>
+            <item value="11"/>
+            <item value="12"/>
+            <item value="13"/>
+            <item value="14"/>
+            <item value="15"/>
+            <item value="16"/>
+            <item value="17"/>
+            <item value="18"/>
+            <item value="19"/>
+            <item value="20"/>
+            <item value="21"/>
+            <item value="22"/>
+            <item value="23"/>
+            <item value="24"/>
+            <item value="25"/>
+            <item value="26"/>
+            <item value="27"/>
+            <item value="28"/>
+            <item value="29"/>
+            <item value="30"/>
+            <item value="31"/>
+            <item value="32"/>
+            <item value="33"/>
+            <item value="34"/>
+            <item value="35"/>
+            <item value="36"/>
+            <item value="37"/>
+            <item value="38"/>
+            <item value="39"/>
+            <item value="40"/>
+            <item value="41"/>
+            <item value="42"/>
+            <item value="43"/>
+            <item value="44"/>
+            <item value="45"/>
+            <item value="46"/>
+            <item value="47"/>
+            <item value="48"/>
+            <item value="49"/>
+            <item value="50"/>
+            <item value="51"/>
+            <item value="52"/>
+            <item value="53"/>
+            <item value="54"/>
+            <item value="55"/>
+            <item value="56"/>
+            <item value="57"/>
+            <item value="58"/>
+            <item value="59"/>
+            <item value="60"/>
+            <item value="61"/>
+            <item value="62"/>
+            <item value="63"/>
+            <item value="64"/>
+            <item value="65"/>
+            <item value="66"/>
+            <item value="67"/>
+            <item value="68"/>
+            <item value="69"/>
+            <item value="70"/>
+            <item value="71"/>
+            <item value="72"/>
+            <item value="73"/>
+            <item value="74"/>
+            <item value="75"/>
+            <item value="76"/>
+            <item value="77"/>
+            <item value="78"/>
+            <item value="79"/>
+            <item value="80"/>
+            <item value="81"/>
+            <item value="82"/>
+            <item value="83"/>
+            <item value="84"/>
+            <item value="85"/>
+            <item value="86"/>
+            <item value="87"/>
+            <item value="88"/>
+            <item value="89"/>
+            <item value="90"/>
+            <item value="91"/>
+            <item value="92"/>
+            <item value="93"/>
+            <item value="94"/>
+            <item value="95"/>
+            <item value="96"/>
+            <item value="97"/>
+            <item value="98"/>
+            <item value="99"/>
+            <item value="100"/>
+            <item value="100+"/>
+          </model>
+        </properties>
+      </component>
+      <component id="6b1cf" class="javax.swing.JRadioButton" binding="masculinRadioButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Masculin"/>
+        </properties>
+      </component>
+      <component id="e684f" class="javax.swing.JRadioButton" binding="femininRadioButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Feminin"/>
+        </properties>
+      </component>
+      <component id="5ec89" class="javax.swing.JCheckBox" binding="românCheckBox" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Român"/>
+        </properties>
+      </component>
+      <component id="841aa" class="javax.swing.JCheckBox" binding="maghiarCheckBox" default-binding="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Maghiar"/>
+        </properties>
+      </component>
+      <component id="91343" class="javax.swing.JCheckBox" binding="rromCheckBox" default-binding="true">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Rrom"/>
+        </properties>
+      </component>
+      <component id="444bf" class="javax.swing.JRadioButton" binding="alteleRadioButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Altele"/>
+        </properties>
+      </component>
+      <component id="9867c" class="javax.swing.JRadioButton" binding="preferSaNuSpunRadioButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Prefer sa nu spun"/>
+        </properties>
+      </component>
+      <component id="aef9" class="javax.swing.JCheckBox" binding="bulgarCheckBox" default-binding="true">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Bulgar"/>
+        </properties>
+      </component>
+      <component id="bcf57" class="javax.swing.JCheckBox" binding="ucraineanCheckBox" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ucrainean"/>
+        </properties>
+      </component>
+      <component id="9e210" class="javax.swing.JCheckBox" binding="sârbCheckBox" default-binding="true">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Sârb"/>
+        </properties>
+      </component>
+      <component id="58454" class="javax.swing.JCheckBox" binding="moldoveanCheckBox" default-binding="true">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Moldovean"/>
+        </properties>
+      </component>
+      <component id="c198a" class="javax.swing.JCheckBox" binding="alteleCheckBox" default-binding="true">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Altele"/>
+        </properties>
+      </component>
+      <component id="a957d" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="f7c43" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="1eea1" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Alba"/>
+            <item value="Arad"/>
+            <item value="Argeș"/>
+            <item value="Bacău"/>
+            <item value="Bihor"/>
+            <item value="Bistrița-Năsăud"/>
+            <item value="Botoșani"/>
+            <item value="Brăila"/>
+            <item value="Brașov"/>
+            <item value="București"/>
+            <item value="Buzău"/>
+            <item value="Călărași"/>
+            <item value="Caraș-Severin"/>
+            <item value="Cluj"/>
+            <item value="Constanța"/>
+            <item value="Covasna"/>
+            <item value="Dâmbovița"/>
+            <item value="Dolj"/>
+            <item value="Galați"/>
+            <item value="Giurgiu"/>
+            <item value="Gorj"/>
+            <item value="Harghita"/>
+            <item value="Hunedoara"/>
+            <item value="Ialomița"/>
+            <item value="Iași"/>
+            <item value="Ilfov"/>
+            <item value="Maramureș"/>
+            <item value="Mehedinți"/>
+            <item value="Mureș"/>
+            <item value="Neamț"/>
+            <item value="Olt"/>
+            <item value="Prahova"/>
+            <item value="Sălaj"/>
+            <item value="Satu Mare"/>
+            <item value="Sibiu"/>
+            <item value="Suceava"/>
+            <item value="Teleorman"/>
+            <item value="Timiș"/>
+            <item value="Tulcea"/>
+            <item value="Vaslui"/>
+            <item value="Vâlcea"/>
+            <item value="Vrancea"/>
+          </model>
+        </properties>
+      </component>
+      <component id="bb218" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b140a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Email"/>
+        </properties>
+      </component>
+      <component id="93666" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Parola"/>
+        </properties>
+      </component>
+      <component id="a2c6d" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="dbb9d" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="803e5" class="javax.swing.JButton" binding="anuleazaButton" default-binding="true">
+        <constraints>
+          <grid row="15" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Anuleaza"/>
+        </properties>
+      </component>
+      <component id="47a63" class="javax.swing.JButton" binding="salveazăButton" default-binding="true">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Salvează"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
